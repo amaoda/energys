@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Bodybuilding_APP
+//
+//  Created by shao_Mac on 16/10/19.
+//  Copyright © 2016年 23444. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define REQUEST_SERVER @"http://beilywx.xicp.net:43986"
+
+#import <AFNetWorking.h>
+#import <UIImageView+WebCache.h>
+#import <MBProgressHUD.h>
+#import "Request_AFNetWorking.h"
+#import "Utilities.h"
+#import "StorageMgr.h"
+#import "RequestAPI.h"
+#import "NSString+Crypt.h"
+#import "NSData+Base64.h"
+#import "AppAPIClient.h"
+
+
+
+#endif /* PrefixHeader_pch */
